@@ -13,6 +13,7 @@ body {
     padding: 10px;
     transition: 400ms;
     line-height: 2em;
+    scroll-behavior: smooth !important;
 }
 h1, h2, h3, h4, h5, h6 {
     letter-spacing: 4px;
