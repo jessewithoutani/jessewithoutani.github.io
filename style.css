@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --background-color: #111;
+    --foreground-color: #fff;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: "Afacad";
+    font-size: 18px;
+    padding: 10px;
+    transition: 400ms;
+    line-height: 2em;
+}
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 4px;
+}
+hr {
+    border: 1px solid var(--foreground-color);
+}
+a {
+    background: var(--foreground-color);
+    color: var(--background-color);
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    text-decoration: none !important;
+    transition: 180ms;
+}
+a:hover {
+    letter-spacing: 5px;
+}
+
+.short-hr {
+    width: 50px;
+    margin-left: 0;
+}
+
+.header, .header2 {
+    font-size: 75px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    padding: 5px 30px 5px 30px;
+    margin: 5px;
+}
+.header2 {
+    font-size: 40px;
+}
+.highlighted {
+    background: var(--foreground-color);
+    color: var(--background-color);
+}
+
+.theme-btn {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 1px solid #777;
+    margin-right: 40px;
+    cursor: pointer;
+    transition: 180ms;
+}
+.theme-btn:hover {
+    transform: scale(120%);
+}
+.project {
+    border-left: 1px solid var(--foreground-color);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.project img {
+    height: 50px;
+}
+.tint::before {
+    background: var(--foreground-color);
+}
+
+#name-and-shit {
+    position: fixed;
+    box-sizing: border-box;
+    width: 30vw;
+    height: 100vh;
+    padding: 65px;
+}
+#content {
+    padding: 70px;
+    margin-left: 30vw;
+}
