@@ -67,7 +67,14 @@ a:hover {
 }
 .project {
     border-left: 1px solid var(--foreground-color);
-    padding: 30px;
+    padding: 10px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.project-2 {
+    border-left: 1px solid var(--foreground-color);
+    padding: 2px;
+    padding-left: 30px;
     margin-bottom: 20px;
 }
 .project img {
