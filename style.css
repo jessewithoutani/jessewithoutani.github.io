@@ -160,4 +160,21 @@ button:hover {
 .window-content {
     border: 2px inset #aaa;
     padding: 20px;
+    box-sizing: border-box;
+}
+.project-description {
+    width: calc(100% - 40px - 120px);
+    display: inline-block;
+
+    /* background: blue; */
+}
+.project-links {
+    text-align: right;
+    width: 120px;
+    display: inline-block;
+
+    /* background: lime; */
+}
+.project-thumbnail {
+    width: calc(100% - 67px);
 }
