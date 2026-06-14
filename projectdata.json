@@ -1,0 +1,66 @@
+{
+    "dinglewingle": {
+        "name": "DingleWingle",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
+            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
+            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+        ],
+        "description": "Want to live in a PERFECT world? The DingleVerse, brought to you by Dingleco, is the happiest place that's OUT OF THIS WORLD! Well, supposedly, because shit's been going wrong since the beginning. Remember those friendly creatures that are supposed to be friendly companions to us humans? Yeah... they've been acting... a little quirky, to say the least. Basically, Dingleco needs help, all you need to do is fix what's broken, pretty simple!<br><br><i>NOTE: game is actively under development, a demo will be released soon</i>",
+        "buttons": [],
+        "backurl": "./games.html"
+    },
+    "walls95": {
+        "name": "Walls 95",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
+            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
+            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+        ],
+        "description": "Walls 95 is a horror game based on the classic Windows maze screensaver. Set inside of someone's PC, You take the role of \"EyeSpy,\" the system's built-in antivirus; you will explore a computer system to fight off those strange \"unwanted creatures\" roaming their PC and recover their lost documents.<br><br><i>NOTE: certain levels are currently disabled; the game's development is currently halted to focus on other projects</i>",
+        "buttons": [
+            {"text": "Play", "link": "https://jessewithoutani.github.io/walls95-3d"}
+        ],
+        "backurl": "./games.html"
+    },
+    "gpc": {
+        "name": "\"Goated Calc Project\"",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
+            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
+            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+        ],
+        "description": "This game is largely a remix of <a href='#'>Walls 95</a>. Turns out, you forgot to submit the FRQs that were due WEEKS ago, as you lost ALL of the pages in the hallways on your way to class, and Mr. Hahn is making you pay. Find all the FRQ pages scattered throughout the hallways and avoid Mr. Hahn at ALL COSTS. You DO NOT want to know what happens to you when he catches you.",
+        "buttons": [
+            {"text": "Play", "link": "https://goatedcalcproject.github.io/"}
+        ],
+        "backurl": "./games.html"
+    },
+    "spg": {
+        "name": "Silly Plane Game",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
+            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
+            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+        ],
+        "description": "A simple flight simulation made in Godot, was mostly made for fun as a first project in that engine. The game is pretty much just a plane flying around with some wonky plane physics.",
+        "buttons": [
+            {"text": "Play", "link": "#"}
+        ],
+        "backurl": "./games.html"
+    },
+    "pbgs": {
+        "name": "P.B.G.S.",
+        "images": [
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
+            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
+            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+        ],
+        "description": "P.B.G.S., also known as \"Punch Bad Guys Simulator,\" is a PvE fighting game where players take on enemies, featuring various levels such as a storage facility and a trainyard. As the name suggests, the game mostly focuses on hand-to-hand combat to defeat opponents. This game was made as a part of the Leland Hacks Hackathon.",
+        "buttons": [
+            {"text": "Play", "link": "#"},
+            {"text": "Play (itch.io)", "link": "#"}
+        ],
+        "backurl": "./games.html"
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JESSE LI</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="projectpage.js"></script>
+</head>
+<body onload="DisplayProjectData()">
+    <div id="transition"></div>
+    <button id="back-button">
+        <a href="index.html">
+            &lt;&lt; BACK
+        </a>
+    </button>
+    <center>
+        <br><br>
+        <span class="title-dinky" style="font-size: 30px;" id="project-title">Project Name :D</span>
+        <div class="project-tags">
+            <span class="project-tag">Tag 1</span>
+            <span class="project-tag">Tag 2</span>
+            <span class="project-tag">Tag 3</span>
+        </div>
+
+        <br><br>
+        <div class="slideshow" id="images">
+            <span class="slideshow-progress">
+                <span id="current">NaN</span> / <span id="total">NaN</span>
+            </span>
+            <button class="left-button" onclick="PreviousImage()">&lt;</button>
+            <button class="right-button" onclick="NextImage()">&gt;</button>
+            <img src="#"><br>
+        </div>
+
+        <p id="project-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ullamcorper leo vel aliquet imperdiet. Pellentesque et ornare felis, et placerat justo. Nam eu nulla a nisi pulvinar hendrerit. Pellentesque placerat ultrices nisl et ultricies. Curabitur sagittis leo ante, non varius tellus egestas luctus. Integer faucibus, massa ac vehicula convallis, lacus mauris eleifend purus, id condimentum est velit vitae enim. Quisque cursus, mi quis laoreet porta, velit est ullamcorper nisi, nec accumsan nisl nisl sed orci. Quisque in neque neque. Integer efficitur diam quis velit blandit sodales.
+        </p>
+        
+        <div id="buttons"></div>
+    </center>
+</body>
+</html>
