@@ -18,7 +18,8 @@ function UpdateImage() {
         document.getElementById("images").remove();
         return;
     }
-    document.getElementById("images").getElementsByTagName("img")[0].src = images[image_index];
+    // document.getElementById("images").getElementsByTagName("img")[0].src = images[image_index];
+    document.getElementById("current-image").style.backgroundImage = `url(${images[image_index]})`;
     document.getElementById("current").innerText = image_index + 1;
     document.getElementById("total").innerText = images.length;
 }
@@ -48,5 +49,10 @@ async function DisplayProjectData() {
     for (const button_data of data.buttons) {
         document.getElementById("buttons").innerHTML += 
             `<button><a href="${button_data.link}">- ${button_data.text} -</a></button><br>`;
+    }
+    // tags
+    for (const tag of data.tags) {
+        document.getElementsByClassName("project-tags")[0].innerHTML += 
+            `<span class="project-tag">${tag}</span>&nbsp;`;
     }
 }

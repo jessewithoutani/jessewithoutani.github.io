@@ -1,23 +1,28 @@
 {
     "dinglewingle": {
         "name": "DingleWingle",
+        "tags": ["FPS", "Unity", "C#"],
         "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
-            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
-            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+            "./screenshots/games/dinglewingle/0.png",
+            "./screenshots/games/dinglewingle/1.png",
+            "./screenshots/games/dinglewingle/2.png",
+            "./screenshots/games/dinglewingle/4.png",
+            "./screenshots/games/dinglewingle/3.png"
         ],
-        "description": "Want to live in a PERFECT world? The DingleVerse, brought to you by Dingleco, is the happiest place that's OUT OF THIS WORLD! Well, supposedly, because shit's been going wrong since the beginning. Remember those friendly creatures that are supposed to be friendly companions to us humans? Yeah... they've been acting... a little quirky, to say the least. Basically, Dingleco needs help, all you need to do is fix what's broken, pretty simple!<br><br><i>NOTE: game is actively under development, a demo will be released soon</i>",
+        "description": "Want to live in a PERFECT world? The DingleVerse, brought to you by Dingleco, is the happiest place that's OUT OF THIS WORLD! Well, supposedly, because shit's been going wrong since the beginning. Remember those friendly creatures that are supposed to be friendly companions to us humans? Yeah... they've been acting... a little quirky, to say the least. Basically, Dingleco needs help, all you need to do is fix what's broken, pretty simple! Fight enemies and explore the vast procedurally generated levels, and clean the place once and for all! <br><br><i>NOTE: game is actively under development, a demo will be released soon</i>",
         "buttons": [],
         "backurl": "./games.html"
     },
     "walls95": {
         "name": "Walls 95",
+        "tags": ["Web", "Horror", "Three.JS", "HTML/CSS/JS"],
         "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
-            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
-            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+            "./screenshots/games/walls95/1.png",
+            "./screenshots/games/walls95/2.png",
+            "./screenshots/games/walls95/3.png",
+            "./screenshots/games/walls95/4.png"
         ],
-        "description": "Walls 95 is a horror game based on the classic Windows maze screensaver. Set inside of someone's PC, You take the role of \"EyeSpy,\" the system's built-in antivirus; you will explore a computer system to fight off those strange \"unwanted creatures\" roaming their PC and recover their lost documents.<br><br><i>NOTE: certain levels are currently disabled; the game's development is currently halted to focus on other projects</i>",
+        "description": "Walls 95 is a web-based horror game inspired by the classic Windows maze screensaver. Set inside of someone's PC, You take the role of \"EyeSpy,\" the system's built-in antivirus; you will explore a computer system to fight off those weird \"unwanted creatures\" roaming their PC, recover lost documents, and more.<br><br><i>NOTE: certain levels are currently disabled; the game's development is currently halted to focus on other projects</i>",
         "buttons": [
             {"text": "Play", "link": "https://jessewithoutani.github.io/walls95-3d"}
         ],
@@ -25,12 +30,12 @@
     },
     "gpc": {
         "name": "\"Goated Calc Project\"",
+        "tags": ["Web", "Horror", "Educational", "Three.JS", "HTML/CSS/JS"],
         "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
-            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
-            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+            "./screenshots/games/gpc/2.png",
+            "./screenshots/games/gpc/1.png"
         ],
-        "description": "This game is largely a remix of <a href='#'>Walls 95</a>. Turns out, you forgot to submit the FRQs that were due WEEKS ago, as you lost ALL of the pages in the hallways on your way to class, and Mr. Hahn is making you pay. Find all the FRQ pages scattered throughout the hallways and avoid Mr. Hahn at ALL COSTS. You DO NOT want to know what happens to you when he catches you.",
+        "description": "This game is largely a remix of <a href='./project.html?id=walls95'>Walls 95</a>. Turns out, you forgot to submit the FRQs that were due WEEKS ago, as you lost ALL of the pages in the hallways on your way to class, and Mr. Hahn is making you pay. Find all the FRQ pages scattered throughout the hallways and avoid Mr. Hahn at ALL COSTS. You DO NOT want to know what happens to you when he catches you.",
         "buttons": [
             {"text": "Play", "link": "https://goatedcalcproject.github.io/"}
         ],
@@ -38,29 +43,103 @@
     },
     "spg": {
         "name": "Silly Plane Game",
+        "tags": ["Web", "Simulation", "Godot", "GDScript"],
         "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
-            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
-            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+            "./screenshots/games/spg/1.png",
+            "./screenshots/games/spg/2.png"
         ],
         "description": "A simple flight simulation made in Godot, was mostly made for fun as a first project in that engine. The game is pretty much just a plane flying around with some wonky plane physics.",
         "buttons": [
-            {"text": "Play", "link": "#"}
+            {"text": "Play (itch.io)", "link": "https://justaduck68.itch.io/silly-plane-game"}
+        ],
+        "backurl": "./games.html"
+    },
+    "terraingen": {
+        "name": "Terrain Gen",
+        "tags": ["Web", "Three.JS", "HTML/CSS/JS"],
+        "images": [
+            "./screenshots/games/terraingen/1.png",
+            "./screenshots/games/terraingen/2.png",
+            "./screenshots/games/terraingen/3.png"
+        ],
+        "description": "A infinite terrain generator demo for a scrapped space game. Using algorithms such as perlin noise and various arbitrary math equations, the demo can procedurally generate different kinds of terrain, including plateaus, hills, and mountains ranges, as well as planetary environments such as ice worlds and water worlds.",
+        "buttons": [
+            {"text": "Visit", "link": "https://jessewithoutani.github.io/procedural-generation-test/"}
         ],
         "backurl": "./games.html"
     },
     "pbgs": {
         "name": "P.B.G.S.",
+        "tags": ["Web", "Fighting", "Unity", "C#"],
         "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSehbIS2dHz8WsL64lWMycejRwEO8QsKHbo-g&s",
-            "https://s.yimg.com/os/en/the_huffington_post_584/588e1888cfd0c59a26df3fdd92d6c9bd",
-            "https://img.bgstatic.com/multiLang/web/44528784f7bc9c0f6cb1ad0e4cc23f5d.jpg"
+            "./screenshots/games/pbgs/1.png",
+            "./screenshots/games/pbgs/2.png"
         ],
         "description": "P.B.G.S., also known as \"Punch Bad Guys Simulator,\" is a PvE fighting game where players take on enemies, featuring various levels such as a storage facility and a trainyard. As the name suggests, the game mostly focuses on hand-to-hand combat to defeat opponents. This game was made as a part of the Leland Hacks Hackathon.",
         "buttons": [
-            {"text": "Play", "link": "#"},
-            {"text": "Play (itch.io)", "link": "#"}
+            {"text": "Play", "link": "https://blueberrytech123.github.io/pbgs/"},
+            {"text": "Play (itch.io)", "link": "https://justaduck68.itch.io/punch-bad-guys-simulator-demo"}
         ],
         "backurl": "./games.html"
+    },
+
+
+
+
+
+
+
+    "infact": {
+        "name": "InFact",
+        "tags": ["HTML/CSS/JS", "Python", "Supabase", "Webscraping", "Artificial Intelligence"],
+        "images": [
+            "./screenshots/web/infact/1.png"
+        ],
+        "description": "In a world where news has an agenda, InFact is here to provide you with the most unbiased and accurate news possible. Using our custom-made algorithm that scrapes additional relevant sources, including sources with \"opposing\" leanings (courtesy of <a href='https://www.allsides.com/media-bias'>AllSides</a>), we use artificial intelligence to corroborate a version of any given news article with minimal bias.<br><br><i>NOTE: development of this site is halted until further notice; demo is not available to visit at the moment.</i>",
+        "buttons": [
+            {"text": "(no demo available)", "link": "#"}
+        ],
+        "backurl": "./webdev.html"
+    },
+    "jambox": {
+        "name": "JamBox",
+        "tags": ["HTML/CSS/JS", "Node.JS"],
+        "images": [
+            "./screenshots/web/jambox/1.png",
+            "./screenshots/web/jambox/2.png"
+        ],
+        "description": "Have you ever wanted to listen to radio stations broadcast all around the world? Jambox gives you a simple interface to do just that. Tune into live broadcasts from different countries, discover new music, international news, and much more. Essentially, Jambox allows you to easily connect with radio stations from around the globe.<br><br><i>NOTE: this site is currently hosted by <a href='https://render.com/'>Render</a>; the site may initially take a while to load.</i>",
+        "buttons": [
+            {"text": "Visit", "link": "https://jambox.onrender.com/"}
+        ],
+        "backurl": "./webdev.html"
+    },
+    "bailm": {
+        "name": "BAiLM",
+        "tags": [],
+        "images": [
+            "./screenshots/web/jambox/1.png",
+            "./screenshots/web/jambox/2.png"
+        ],
+        "description": "giggly wiggly.<br><br><i>NOTE: this site is currently hosted by <a href='https://render.com/'>Render</a>; the site may initially take a while to load.</i>",
+        "buttons": [
+            {"text": "Visit", "link": "https://bailm.onrender.com/"}
+        ],
+        "backurl": "./webdev.html"
+    },
+    "windowsvg": {
+        "name": "Windows VG",
+        "tags": ["HTML/CSS/JS"],
+        "images": [
+            "./thumbnails/web/winvg.png",
+            "./screenshots/web/windowsvg/2.png",
+            "./screenshots/web/windowsvg/3.png",
+            "./screenshots/web/windowsvg/4.png"
+        ],
+        "description": "Windows VG, short for \"Windows Very Good Edition,\" is a web-based parody operating system, inspired by the classic Windows RG flash game. My main premise of the project was to work with windows interfaces within websites, as well as recreating the familiar experience of using a Windows PC right in your browser!",
+        "buttons": [
+            {"text": "Visit", "link": "https://jessewithoutani.github.io/windows-vg/"}
+        ],
+        "backurl": "./webdev.html"
     }
 }
